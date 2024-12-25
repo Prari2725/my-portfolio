@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My first website</title>
+    <link rel="web icon" type="png" href="images/website icon.png">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar bg-light fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><i>Me</i></a>
+            <ul class="navbar-nav d-flex flex-row">
+                <li class="nav-item me-3"><a class="nav-link" href="#section1"><i>Home</i></a></li>
+                <li class="nav-item me-3"><a class="nav-link" href="#section2"><i>About Me</i></a></li>
+                <li class="nav-item me-3"><a class="nav-link" href="#section3"><i>My Skills</i></a></li>
+                <li class="nav-item me-3"><a class="nav-link" href="#section4"><i>Projects</i></a></li>
+                <li class="nav-item me-3"><a class="nav-link" href="#section5"><i>Blog</i></a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Dot Navigation -->
+    <div class="dots">
+
+    </div>
+
+    <!-- Page Content -->
+    <div class="content">
+
+        <!-- Section 1 -->
+        <section id="section1" class="section bg-white text-dark ">
+            <div class="row align-items-center">
+
+                <!-- Image on the left -->
+                <div class="col-md-6">
+                    <img src="images/profile1.jpg" class="img-fluid extra-rounded" alt="Profile Image">
+                </div>
+                <!-- Text on the right -->
+                <div class="col-md-6">
+                    <h1>Dalya Baron </h1>
+                    <p>Astrophysics Research Student.</p>
+                </div>
+                <!-- Two small images at the bottom-right corner -->
+
+            </div>
+            <div class="bottom-images position-absolute bottom-0 end-0 d-flex gap-2 p-3">
+                <img src="images/linkedin.jpg" alt="Small Image 1" class="img-fluid" style="width: 50px; height: auto;">
+                <img src="images/gmail.jpg" alt="Small Image 2" class="img-fluid" style="width: 50px; height: auto;">
+            </div>
+        </section>
+
+
+
+
+        <hr>
+
+        <section id="section2" class="section bg-white text-dark position-relative">
+            <div class="d-flex justify-content-center align-items-center h-100">
+                <div class="row align-items-center w-100">
+                    <!-- Paragraph (Content) on the left -->
+                    <div class="col-md-6 text-center">
+                        <p class="mx-auto" style="max-width: 800px;">
+                            &nbsp;&nbsp;I am a graduate student at the Tel Aviv University Astrophysics Department,
+                            deeply passionate about understanding the universe through the lens of data
+                            and computation. My research focuses on active galactic nuclei (AGN),
+                            exploring their pivotal role in galaxy evolution and the broader dynamics of the
+                            cosmos. In addition to my astrophysics work, I specialize in developing and applying
+                            machine learning algorithms to astronomical datasets. This interdisciplinary
+                            approach allows me to uncover patterns and insights in complex, large-scale
+                            data, driving innovation in both astrophysics and data science. Beyond academia,
+                            I am enthusiastic about science communication and believe in making complex
+                            ideas accessible to all.
+                        </p>
+                    </div>
+
+                    <!-- Image on the right -->
+                    <div class="col-md-6 text-center">
+                        <img src="images/profile2.jpg" class="img-fluid extra-rounded" alt="Your Image">
+                    </div>
+                </div>
+            </div>
+
+            <!-- Two small images at the bottom-right corner -->
+            <div class="bottom-images position-absolute bottom-0 end-0 d-flex gap-2 p-3">
+                <img src="images/linkedin.jpg" alt="Small Image 1" class="img-fluid" style="width: 50px; height: auto;">
+                <img src="images/gmail.jpg" alt="Small Image 2" class="img-fluid" style="width: 50px; height: auto;">
+            </div>
+        </section>
+
+        <hr>
+        <section id="section3" class="section bg-white text-dark">
+            <div class="container">
+                <h1 class="text-center mb-5">My Skills</h1>
+                <div class="row justify-content-center">
+                    <!-- Left Column -->
+                    <div class="col-md-5">
+                        <!-- Skill 1 -->
+                        <div class="mb-4">
+                            <label for="progress-ml" class="form-label"> Programming (Python)</label>
+                            <div class="progress">
+                                <div id="progress-ml" class="progress-bar" style="width: 50%;"></div>
+                            </div>
+                        </div>
+                        <!-- Skill 2 -->
+                        <div class="mb-4">
+                            <label for="progress-ml" class="form-label">Machine Learning</label>
+                            <div class="progress">
+                                <div id="progress-ml" class="progress-bar" style="width: 60%;"></div>
+                            </div>
+                        </div>
+                        <!-- Skill 3 -->
+                        <div class="mb-4">
+                            <label for="progress-computation" class="form-label">Computational Methods</label>
+                            <div class="progress">
+                                <div id="progress-computation" class="progress-bar" style="width: 65%;"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Right Column -->
+                    <div class="col-md-5">
+                        <!-- Skill 4 -->
+                        <div class="mb-4">
+                            <label for="progress-data" class="form-label">Data Analysis</label>
+                            <div class="progress">
+                                <div id="progress-data" class="progress-bar" style="width: 45%;"></div>
+                            </div>
+                        </div>
+                        <!-- Skill 5 -->
+                        <div class="mb-4">
+                            <label for="progress-comp-skills" class="form-label">Computation Skills</label>
+                            <div class="progress">
+                                <div id="progress-comp-skills" class="progress-bar" style="width: 55%;"></div>
+                            </div>
+                        </div>
+                        <!-- Skill 6 -->
+                        <div class="mb-4">
+                            <label for="progress-research" class="form-label">Research Design</label>
+                            <div class="progress">
+                                <div id="progress-research" class="progress-bar" style="width: 60%;"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="bottom-images position-absolute bottom-0 end-0 d-flex gap-2 p-3">
+                <img src="images/linkedin.jpg" alt="Small Image 1" class="img-fluid" style="width: 50px; height: auto;">
+                <img src="images/gmail.jpg" alt="Small Image 2" class="img-fluid" style="width: 50px; height: auto;">
+            </div>
+        </section>
+
+        <hr>
+
+        <section id="section4" class="section bg-white text-dark ">
+            <div class="container d-flex flex-column align-items-center ">
+                <!-- Row 1: 4 Boxes -->
+                <div class="d-flex flex-wrap justify-content-center mb-3 gap-4">
+                    <!-- Box 1 -->
+                    <div class="box">
+                        <h3>DoingSo</h3>
+                        <p>Another productivity focused app you're developing, likely to include Pomodoro features and
+                            task management.</p>
+                    </div>
+                    <!-- Box 2 -->
+                    <div class="box">
+                        <h3>Portfolio Website</h3>
+                        <p>Personal site to showcase skills and projects.</p>
+                    </div>
+                    <!-- Box 3 -->
+                    <div class="box">
+                        <h3>Bug Tracker System</h3>
+                        <p>A web app to log, prioritize, and manage software bugs.</p>
+                    </div>
+                    <!-- Box 4 -->
+                    <div class="box">
+                        <h3>Code Snippet Organizer</h3>
+                        <p>A tool to store, search, and organize reusable code snippets for developers.</p>
+                    </div>
+                </div>
+                <!-- Row 2: 3 Boxes -->
+                <div class="d-flex flex-wrap justify-content-center gap-4">
+                    <!-- Box 5 -->
+                    <div class="box">
+                        <h3>Portfolio Website</h3>
+                        <p>Personal site to showcase skills and projects.</p>
+                    </div>
+                    <!-- Box 6 -->
+                    <div class="box">
+                        <h3>Bug Tracker System</h3>
+                        <p>A web app to log, prioritize, and manage software bugs.</p>
+                    </div>
+                    <!-- Box 7 -->
+                    <div class="box">
+                        <h3>Code Snippet Organizer</h3>
+                        <p>A tool to store, search, and organize reusable code snippets for developers.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Two small images at the bottom-right corner -->
+            <div class="bottom-images position-absolute bottom-0 end-0 d-flex gap-2 p-3">
+                <img src="images/linkedin.jpg" alt="Small Image 1" class="img-fluid" style="width: 50px; height: auto;">
+                <img src="images/gmail.jpg" alt="Small Image 2" class="img-fluid" style="width: 50px; height: auto;">
+            </div>
+        </section>
+
+        <hr>
+        <div>
+            <section id="section5" class="section bg-white text-dark">
+                <div class="container">
+                    <div class="row justify-content-center gap-4">
+                        <!-- Aligns 3 boxes in center with gap -->
+                        <!-- Box 1 -->
+                        <div class="col-md-3">
+                            <div class="card border border-dark" style="height: 100%;">
+                                <img src="images/blog.jpg" class="card-img-top" alt="Blog Image"
+                                    style="height: 200px; object-fit: cover; padding: 10px;">
+                                <div class="card-body">
+                                    <p class="card-text">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sit amet
+                                        accumsan arcu.
+                                    </p>
+                                </div>
+                                <div class="card-footer text-right">
+                                    <a href="#" class="text-decoration-none">Learn more &gt;&gt;</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Box 2 -->
+                        <div class="col-md-3">
+                            <div class="card border border-dark" style="height: 100%;">
+                                <img src="images/blog.jpg" class="card-img-top" alt="Blog Image"
+                                    style="height: 200px; object-fit: cover; padding: 10px;">
+                                <div class="card-body">
+                                    <p class="card-text">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sit amet
+                                        accumsan arcu.
+                                    </p>
+                                </div>
+                                <div class="card-footer text-right">
+                                    <a href="#" class="text-decoration-none">Learn more &gt;&gt;</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Box 3 -->
+                        <div class="col-md-3">
+                            <div class="card border border-dark" style="height: 100%;">
+                                <img src="images/blog.jpg" class="card-img-top" alt="Blog Image"
+                                    style="height: 200px; object-fit: cover; padding: 10px;">
+                                <div class="card-body">
+                                    <p class="card-text">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sit amet
+                                        accumsan arcu.
+                                    </p>
+                                </div>
+                                <div class="card-footer text-right">
+                                    <a href="#" class="text-decoration-none">Learn more &gt;&gt;</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- Two small images at the bottom-right corner -->
+                <div class="bottom-images position-absolute bottom-0 end-0 d-flex gap-2 p-3">
+                    <img src="images/linkedin.jpg" alt="Small Image 1" class="img-fluid"
+                        style="width: 50px; height: auto;">
+                    <img src="images/gmail.jpg" alt="Small Image 2" class="img-fluid"
+                        style="width: 50px; height: auto;">
+                </div>
+            </section>
+        </div>
+
+
+
+        <!-- Footer Section -->
+        <footer class="footer text-white py-4 mt-5">
+            <div class="container text-center">
+                <!-- Email and Phone Section -->
+                <p>Email: <a href="mailto:DalyaBaron@gmail.com" class="text-white">DalyaBaron@gmail.com</a></p>
+                <p>Phone: xxx xxxx xxx</p>
+                <!-- Images Section (Replace with your images) -->
+                <div class="footer-images">
+
+                    <img src="images/linkedin.jpg" alt="LinkedIn" class="img-fluid"
+                        style="width: 30px; margin: 0 10px;">
+                    <img src="images/gmail.jpg" alt="Gmail" class="img-fluid" style="width: 30px; margin: 0 10px;">
+                </div>
+
+                <!-- Copyright Section -->
+                <p>© 2024 DalyaBaron. All Rights Reserved</p>
+            </div>
+        </footer>
+
+
+
+        <!-- Bootstrap JS -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Custom JS -->
+        <script src="script.js"></script>
+</body>
+
+</html>

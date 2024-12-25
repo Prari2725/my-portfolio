@@ -1,0 +1,371 @@
+/* General Styles */
+body {
+    margin: 0;
+    /* Remove default margin */
+    overflow-y: auto;
+    /* Enable vertical scrolling */
+    font-family: Arial, sans-serif;
+    /* Set font family */
+    background-color: #ffffff;
+    /* White background */
+    color: #000;
+    /* Black text color */
+}
+
+/* Navbar Styles */
+.navbar {
+    background-color: rgb(162, 222, 222);
+    /* Light teal background for navbar */
+}
+
+.navbar a {
+    color: black;
+    /* Black text for links */
+    text-decoration: none;
+    /* Remove underline from links */
+    font-size: larger;
+    /* Set font size larger for readability */
+}
+
+.navbar a:hover {
+    text-decoration: underline;
+    /* Underline links on hover */
+}
+
+/* Horizontal Rule (line) Styles */
+hr {
+    color: #a21313;
+    /* Red color for the line */
+    display: block;
+    /* Make the line a block element */
+    width: 75%;
+    /* Set width of the line */
+    margin: auto;
+    /* Center the line */
+    border: none;
+    /* Remove default border styling */
+    height: 5px;
+    /* Set height (thickness) of the line */
+    background-color: #a21313;
+    /* Red background for the line */
+    appearance: none;
+    /* Remove browser styling */
+    box-shadow: none;
+    /* Remove any box shadow */
+    opacity: 1;
+    /* Ensure full opacity */
+}
+
+/* Section Styles */
+.section {
+    min-height: 100vh;
+    /* Full viewport height */
+    display: flex;
+    /* Flexbox layout */
+    justify-content: center;
+    /* Center content horizontally */
+    align-items: center;
+    /* Center content vertically */
+    text-align: center;
+    /* Center text inside section */
+    padding: 20px;
+    /* Padding around content */
+    position: relative;
+    /* Relative positioning */
+    padding-left: 3%;
+    /* Left padding */
+}
+
+/*section 1*/
+#section1 {
+    padding-top: 20px;
+    /* Add padding at the top of section 1 */
+}
+
+#section1 .row {
+    display: flex;
+    /* Flexbox layout for rows */
+    align-items: center;
+    /* Vertically align items in the row */
+}
+
+#section1 img {
+    width: 45%;
+    /* Set image width to 45% */
+    border-radius: 10px;
+    /* Optional: rounded corners for image */
+}
+
+/*section 2*/
+#section2 {
+    padding-top: 20px;
+    /* Add padding at the top of section 2 */
+}
+
+#section2 .row {
+    margin-top: 20px;
+    /* Add margin at the top of rows in section 2 */
+}
+
+#section2 p {
+    text-align: justify;
+    /* Justify text for better readability */
+    line-height: 1.6;
+    /* Adjust line height for spacing */
+}
+
+#section2 img {
+    width: 45%;
+    /* Adjust image width */
+    max-width: 500px;
+    /* Set a max width for images */
+    border-radius: 10px;
+    /* Rounded corners for images */
+}
+
+/* Additional Styling for Rounded Corners */
+.extra-rounded {
+    border-radius: 50px;
+    /* More rounded corners */
+}
+
+/*section 3*/
+/* Center content and add spacing */
+#section3 {
+    padding: 50px 20px;
+    /* Add padding inside section 3 */
+    display: flex;
+    /* Flexbox layout */
+    justify-content: center;
+    /* Center content horizontally */
+    align-items: center;
+    /* Center content vertically */
+    flex-direction: column;
+    /* Arrange items in a column */
+}
+
+/* Progress Bar Styling */
+.progress-bar {
+    background-color: #be303e;
+    /* Red background color */
+    color: white;
+    /* White text color */
+    text-align: center;
+    /* Center text inside the progress bar */
+    font-weight: bold;
+    /* Make text bold */
+}
+
+.progress {
+    width: 70%;
+    /* Set progress width */
+    margin: 0 auto;
+    /* Center the progress bar */
+}
+
+/*section 4*/
+
+/* General Box Styling */
+.box {
+    width: 200px;
+    /* Set fixed width for the box */
+    height: 150px;
+    /* Set fixed height for the box */
+    background-color: #f8f9fa;
+    /* Light background color */
+    border: 2px solid #000;
+    /* Black border */
+    border-radius: 8px;
+    /* Rounded corners */
+    text-align: center;
+    /* Center text inside the box */
+    padding: 10px;
+    /* Padding inside the box */
+    display: flex;
+    /* Flexbox layout */
+    flex-direction: column;
+    /* Stack elements vertically */
+    justify-content: center;
+    /* Center items vertically */
+    align-items: center;
+    /* Center items horizontally */
+}
+
+/* Box Heading */
+.box h3 {
+    font-size: 1.2rem;
+    /* Set font size for box heading */
+    margin-bottom: 8px;
+    /* Margin below the heading */
+    font-weight: bold;
+    /* Make heading bold */
+}
+
+/* Box Paragraph */
+.box p {
+    font-size: 0.9rem;
+    /* Set font size for paragraph */
+    font-style: italic;
+    /* Italicize text */
+    color: #555;
+    /* Light gray text color */
+    margin: 0;
+    /* Remove margin */
+}
+
+/* Flexbox Layout for Extra Spacing */
+.d-flex {
+    row-gap: 80px;
+    /* Add vertical gap between items */
+}
+
+
+/* Progress Bar Styling */
+.progress-bar {
+    background-color: #be303e;
+    /* Red background color */
+    color: white;
+    /* White text color */
+    text-align: center;
+    /* Center text inside the progress bar */
+    font-weight: bold;
+    /* Make text bold */
+}
+
+.progress {
+    width: 70%;
+    /* Set progress width */
+    margin: 0 auto;
+    /* Center the progress bar */
+}
+
+/*section 4*/
+/* Card Styles */
+/* Hover Effect for Cards */
+.card:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    /* Add shadow effect on hover */
+    transform: translateY(-5px);
+    /* Slightly move the card upwards */
+    transition: all 0.3s ease-in-out;
+    /* Smooth transition */
+}
+
+/* Customizing "Learn more" Link */
+.card-footer a {
+    font-weight: bold;
+    /* Make the link text bold */
+    color: #007bff;
+    /* Blue color for the link */
+    transition: color 0.3s ease-in-out;
+    /* Smooth color transition */
+}
+
+.card-footer a:hover {
+    color: #0056b3;
+    /* Darker blue on hover */
+    text-decoration: underline;
+    /* Underline the link on hover */
+}
+
+/* Padding and Spacing Adjustments for Cards */
+.card-body {
+    padding: 20px;
+    /* Add padding inside the card body */
+}
+
+.card-img-top {
+    border-radius: 5px;
+    /* Slightly rounded corners for images */
+    padding: 15px;
+    /* Padding inside the image */
+}
+
+
+/* Styling for Each Image in the Bottom Section */
+.bottom-images img {
+    width: 50px;
+    /* Set image width */
+    height: auto;
+    /* Maintain image aspect ratio */
+    border-radius: 5px;
+    /* Optional: rounded corners */
+}
+
+/* Dot Navigation Styles */
+.dots {
+    position: fixed;
+    /* Fixed position for the dots */
+    top: 50%;
+    /* Center vertically */
+    left: 20px;
+    /* Set left margin */
+    transform: translateY(-50%);
+    /* Adjust vertical position */
+    display: flex;
+    /* Flexbox layout for dots */
+    flex-direction: column;
+    /* Stack dots vertically */
+    z-index: 1000;
+    /* Ensure dots are above other content */
+    animation: scroll-dots 2s linear infinite;
+    /* Faster scrolling */
+}
+
+.dots__item {
+    width: 12px;
+    /* Set dot size */
+    height: 12px;
+    /* Set dot size */
+    border-radius: 50%;
+    /* Make the dot circular */
+    background-color: black;
+    /* Set black color for dots */
+    cursor: pointer;
+    /* Change cursor to pointer on hover */
+    margin-bottom: 15px;
+    /* Add margin below each dot */
+    transition: transform 0.1s ease-in-out;
+    /* Faster transition */
+}
+
+/* Active dot color and size */
+.dots__item--active {
+    background-color: gray;
+    /* Active dot color */
+    transform: scale(1.5);
+    /* Enlarge the active dot */
+}
+
+/* Hover effect for dots */
+.dots__item:hover {
+    background-color: gray;
+    /* Change color to gray on hover */
+    transform: scale(1.5);
+    /* Enlarge the hovered dot */
+}
+
+
+/* Background Color for Specific Section */
+.footer {
+    background-color: #ac2e0c;
+    /* Set brown background color */
+    align-items: center;
+    /* Center items horizontally */
+    justify-content: center;
+    /* Center items vertically */
+    color: white;
+    /* Set text color to white */
+}
+
+/* Footer Content Styling */
+.footer-content {
+    margin-bottom: 60px;
+    /* Add space below the footer content */
+}
+
+/* Footer Image Styling */
+.footer-images {
+    margin-bottom: 40px;
+    /* Add space below the footer images */
+}
