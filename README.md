@@ -1,3 +1,2 @@
-# this is my first demo website
+# this is my portfolio
 <br>
-html css javascript
